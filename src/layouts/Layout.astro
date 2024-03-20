@@ -35,88 +35,88 @@ const productos = [
 			<div class=" container mx-auto flex items-center">
 				<img src="public/aliexpress_logo.webp" class="h-20">
 				<div class= "relative">
-					<input  placeholder="Buscar" class="py-6 h-9 rounded-full pr-[640px] pl-8 outline-none ml-6">
-					<div class="bg-zinc-900 right-1 top-[6px] absolute inline-block text-white rounded-xl py-1 px-2 ">
+					<input  placeholder="Buscar" class="py-5 h-9 rounded-full pr-[440px] pl-8 outline-none ml-6">
+					<div class="bg-zinc-900 right-1 top-[4px] absolute inline-block text-white rounded-xl py-1 px-2 ">
 						<Icon name="mdi:search" class="size-6" />
 					</div>
 				</div>
 				<div class="text-white inline-block ml-7">
-					<Icon name="mdi:qrcode" class="size-10" />
+					<a href=""><Icon name="mdi:qrcode" class="size-10" /></a>
 				</div>
 				<div class="inline-block ml-1">
-					<p class="inline-block text-white leading-[14px] text-sm ">Descarga la app <br/> de Aliexpress</p>
+					<p class="inline-block text-white leading-[14px] text-xs ">Descarga la app <br/> de Aliexpress</p>
 				</div>
 				<div class=" inline-block text-yellow-400 ml-7 ">
-					<Icon name="mdi:diving-scuba-flag" class="size-7" />
+					<a href=""><Icon name="flagpack:co" class="size-8" /></a>
 				</div>
 				<div class="inline-block ml-1">
 					<h2 class="text-white">ES/</h2>
 					<h1 class="text-white">COP!</h1>
 				</div>
 				<div class="inline-block ml-7 text-white">
-					<Icon name="mdi:user-outline" class="size-12" />
+					<a href=""><Icon name="mdi:user-outline" class="size-12" /></a>
 				</div>
 				<div class="inline-block ml-1">
 					<h1 class="text-white">!Bienvenido</h1>
 					<h1 class="text-white">Identificate/Registrate°</h1>
 				</div>
 				<div class="inline-block ml-7 text-white">
-					<Icon name="mdi:shopping-cart" class="size-10" />
+					<a href=""><Icon name="mdi:shopping-cart" class="size-10" /></a>
 				</div>
 			</div>
 		</div>
-		<div class="bg-zinc-900 py-5">
+		<div class="bg-zinc-900 py-2">
 			<div class=" container mx-auto flex items-center">
-				<div class="relative border border-amber-50 ml-20 rounded-full p-2 hover:bg-zinc-700 transition duration-300">
+				<div class="relative border border-amber-50 ml-20 rounded-full p-2 hover:bg-zinc-700  group hover:border-transparent">
 					<div class="text-white ml-5 inline-block absolute ">
-						<Icon name="mdi:menu" class="size-8 "/>
+						<Icon name="mdi:menu" class="size-6 "/>
 					</div>
-					<a href="" class=" text-white ml-[56px] mr-5 text-xl ">Todas las Categorías °</a>
+					<a href="" class=" text-white ml-[57px] mr-5 text-base">Todas las Categorías</a>
+					<a href="">
+						<menu class="hidden group-hover:block group-hover:bg-zinc-700 border-[1px] rounded-[19px] absolute w-full left-0  text-center  top-0">
+							<ul>
+							   <li class="pt-[7px] pb-2 text-left pl-16 text-white">Todas las Categorías</li>
+							   <li class="py-5 text-left pl-16 text-white"><a href="">Hogar</a></li>
+							   <li class="py-5 text-left pl-16 text-white"><a href="">Moda</a></li>
+							   <li class="py-5 text-left pl-16 text-white"><a href="">Electronica</a></li>
+							   <li class="py-5 text-left pl-16 text-white"><a href="">Herramientas</a></li>
+							   <li class="py-5 text-left pl-16 text-white"><a href="">Zapatos</a></li>
+							   <li class="py-5 text-left pl-16 text-white"><a href="">Motor</a></li>
+							</ul>
+						</menu>		
+					</a>
+								
 				</div>
 				<div class="inline-block rounded-full ml-2 hover:bg-zinc-700 transition duration-300 ">
 					<a href="" class=" text-white  text-xl mx-5 block p-2">NN</a>
 				</div>
 			    <div class="inline-block rounded-full ml-2 hover:bg-zinc-700 transition duration-300">
-					<a href="" class=" text-white mx-5 block p-2 text-xl  ">Superventas</a>
+					<a href="" class=" text-white mx-5 block p-2 text-text-base  ">Superventas</a>
 				</div>
 				<div class="inline-block rounded-full ml-2 hover:bg-zinc-700 transition duration-300">
-					<a href="" class=" text-white mx-5 block p-2 text-xl ">Mejores Marcas</a>
+					<a href="" class=" text-white mx-5 block p-2 text-text-base ">Mejores Marcas</a>
 				</div>
 				<div class="inline-block rounded-full ml-2 hover:bg-zinc-700 transition duration-300">
-					<a href="" class=" text-white mx-5 block p-2 text-xl ">Hogar y jardin</a>
+					<a href="" class=" text-white mx-5 block p-2 text-text-base ">Hogar y jardin</a>
 				</div>
 				<div class="inline-block rounded-full ml-2 hover:bg-zinc-700 transition duration-300">
-					<a href="" class=" text-white mx-5 block p-2 text-xl ">cabello</a>
+					<a href="" class=" text-white mx-5 block p-2 text-text-base ">Cabello</a>
 				</div>
 				<div class="inline-block rounded-full ml-2 hover:bg-zinc-700 transition duration-300">
-					<a href="" class=" text-white mx-5 block p-2 text-xl ">Moda</a>
+					<a href="" class=" text-white mx-5 block p-2 text-text-base ">Moda</a>
 				</div>
 				<div class="inline-block rounded-full ml-2 hover:bg-zinc-700 transition duration-300">
-					<a href="" class=" text-white mx-5 block p-2 text-xl ">Accesorios</a>
+					<a href="" class=" text-white mx-5 block p-2 text-text-base ">Accesorios</a>
 				</div>
 				<div class="inline-block rounded-full ml-2 hover:bg-zinc-700 transition duration-300">
-					<a href="" class=" text-white mx-5 block p-2 text-xl ">Electronica</a>
+					<a href="" class=" text-white mx-5 block p-2 text-text-base ">Electronica</a>
 				</div>
 			</div>
 		</div>
 		<div class="container banner">
 			BANNER
 		</div>
-		<nav class="container main_menu">
-			<a href="/">Inicio</a>  <a href="productos">Productos</a>
-		</nav>
-		<div class="container list ">
-			{
-				productos.map((productos) => <div>
-			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12 2C7.51 2 4 4.2 4 7v10c0 2.8 3.51 5 8 5s8-2.2 8-5V7c0-2.8-3.51-5-8-5zm0 18c-3.54 0-6-1.58-6-3v-6.67A10.52 10.52 0 0 0 12 12a10.52 10.52 0 0 0 6-1.67V17c0 1.42-2.46 3-6 3zm0-10c-3.54 0-6-1.58-6-3s2.46-3 6-3 6 1.58 6 3-2.46 3-6 3z"></path><ellipse cx="12" cy="7" rx="3" ry="1.71"></ellipse></svg>
-			{productos.name}
-			</div>)
-			}
-			
-		</div>
-		<div class="container categories">
-			Categorias
-		</div>
+		
 		<div class="container">
 			<slot />
 		</div>
