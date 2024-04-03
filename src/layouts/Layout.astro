@@ -32,33 +32,33 @@ const productos = [
 	</head>
 	<body>
 		<div class="bg-zinc-900">
-			<div class=" container mx-auto flex items-center">
-				<img src="public/aliexpress_logo.webp" class="h-20">
+			<div class=" container mx-auto flex items-center pt-2">
+				<img src="public/aliexpress_logo.webp" class="h-16 ml-[100px]">
 				<div class= "relative">
-					<input  placeholder="Buscar" class="py-5 h-9 rounded-full pr-[440px] pl-8 outline-none ml-6">
+					<input  placeholder="Buscar" class="py-5 h-9 rounded-full pr-[340px] pl-8 outline-none ml-6">
 					<div class="bg-zinc-900 right-1 top-[4px] absolute inline-block text-white rounded-xl py-1 px-2 ">
 						<Icon name="mdi:search" class="size-6" />
 					</div>
 				</div>
 				<div class="text-white inline-block ml-7">
-					<a href=""><Icon name="mdi:qrcode" class="size-10" /></a>
+					<a href=""><Icon name="mdi:qrcode" class="size-8" /></a>
 				</div>
 				<div class="inline-block ml-1">
 					<p class="inline-block text-white leading-[14px] text-xs ">Descarga la app <br/> de Aliexpress</p>
 				</div>
 				<div class=" inline-block text-yellow-400 ml-7 ">
-					<a href=""><Icon name="flagpack:co" class="size-8" /></a>
+					<a href=""><Icon name="flagpack:co" class="size-6" /></a>
 				</div>
 				<div class="inline-block ml-1">
-					<h2 class="text-white">ES/</h2>
-					<h1 class="text-white">COP!</h1>
+					<h2 class="text-white text-xs">ES/</h2>
+					<h1 class="text-white text-xs">COP!</h1>
 				</div>
 				<div class="inline-block ml-7 text-white">
 					<a href=""><Icon name="mdi:user-outline" class="size-12" /></a>
 				</div>
 				<div class="inline-block ml-1">
-					<h1 class="text-white">!Bienvenido</h1>
-					<h1 class="text-white">Identificate/Registrate°</h1>
+					<h2 class="text-white text-xs">!Bienvenido</h2>
+					<h2 class="text-white text-xs">Identificate/Registrate°</h2>
 				</div>
 				<div class="inline-block ml-7 text-white">
 					<a href=""><Icon name="mdi:shopping-cart" class="size-10" /></a>
@@ -73,15 +73,15 @@ const productos = [
 					</div>
 					<a href="" class=" text-white ml-[57px] mr-5 text-base">Todas las Categorías</a>
 					<a href="">
-						<menu class="hidden group-hover:block group-hover:bg-zinc-700 border-[1px] rounded-[19px] absolute w-full left-0  text-center  top-0">
+						<menu class="hidden group-hover:block group-hover:bg-slate-100 border-[1px] rounded-[19px] absolute w-full left-0  text-center  top-0 shadow-xl">
 							<ul>
-							   <li class="pt-[7px] pb-2 text-left pl-16 text-white">Todas las Categorías</li>
-							   <li class="py-5 text-left pl-16 text-white"><a href="">Hogar</a></li>
-							   <li class="py-5 text-left pl-16 text-white"><a href="">Moda</a></li>
-							   <li class="py-5 text-left pl-16 text-white"><a href="">Electronica</a></li>
-							   <li class="py-5 text-left pl-16 text-white"><a href="">Herramientas</a></li>
-							   <li class="py-5 text-left pl-16 text-white"><a href="">Zapatos</a></li>
-							   <li class="py-5 text-left pl-16 text-white"><a href="">Motor</a></li>
+							   <li class="pt-[7px] pb-2 text-left pl-6 text-black flex items-center"><Icon name="mdi:menu" class="size-5 mr-2  "/>Todas las Categorías</li>
+							   <li class="py-3 text-left pl-6 text-black flex items-center"><Icon name="mdi:house" class="size-5 mr-2" />Hogar</li>
+							   <li class="py-3 text-left pl-6 text-black flex items-center"><Icon name="mdi:face-man-shimmer-outline" class="size-5 mr-2" />Cabello</li>
+							   <li class="py-3 text-left pl-6 text-black flex items-center"><Icon name="mdi:clothes-hanger" class="size-5 mr-2" />Moda</li>
+							   <li class="py-3 text-left pl-6 text-black flex items-center"><Icon name="mdi:tools" class="size-5 mr-2"  />Herramientas</li>
+							   <li class="py-3 text-left pl-6 text-black flex items-center"><Icon name="mdi:headphones" class="size-5 mr-2" />Electronica</li>
+							   <li class="py-3 text-left pl-6 text-black flex items-center"><Icon name="mdi:lightbulb-on" class="size-5 mr-2 " />Iluminacion</li>
 							</ul>
 						</menu>		
 					</a>
@@ -111,12 +111,12 @@ const productos = [
 				<div class="inline-block rounded-full ml-2 hover:bg-zinc-700 transition duration-300">
 					<a href="" class=" text-white mx-5 block p-2 text-text-base ">Electronica</a>
 				</div>
+				
 			</div>
 		</div>
-		<div class="container banner">
-			BANNER
+		<div class="container mx-auto pl-20">
+			<img src="/public/banner.webp" alt="" class="py-6 w-11/12 ">
 		</div>
-		
 		<div class="container">
 			<slot />
 		</div>
@@ -143,10 +143,6 @@ const productos = [
 	}
 	.main_menu a:hover{
 		background: rgb(130, 134, 131);
-	}
-	
-	.banner{
-		height: 200px;
 	}
 	.categories{
 		height: 120px;
